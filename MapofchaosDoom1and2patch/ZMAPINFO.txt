@@ -1,0 +1,254 @@
+clearepisodes
+
+episode E1M1
+{
+Name="knee-Deep in the Dead"
+}
+
+episode E2M1
+{
+Name="The Shores of Hell"
+}
+
+episode E3M1
+{
+Name="Inferno"
+}
+	
+episode Map01
+{
+Name="Hell on Earth"
+}
+
+
+//Episode 1
+
+map E1M1 "Hanger"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M2"
+music = "D_E1M1"
+}
+
+map E1M2 "Nuclear plant"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M3"
+music = "D_E1M2"
+}
+
+
+map E1M3 "Toxin Refinery"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M4"
+secretnext = "E1M9"
+music = "D_E1M3"
+}
+
+map E1M4 "Command Control"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M5"
+music = "D_E1M4"
+}
+
+map E1M5 "Phobos Lab"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M6"
+secretnext = ""
+music = "D_E1M5"
+}
+
+map E1M6 "Central Processing"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M7"
+music = "D_E1M6"
+}
+
+
+map E1M7 "Computer Station"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M8"
+music = "D_E1M7"
+}
+
+
+map E1M8 "Phobos Anomaly"
+
+{
+sky1 = "SKY1" , 0
+music = "D_E1M8"
+}
+
+map E1M9 "Military Base"
+
+{
+sky1 = "SKY1" , 0
+next = "E1M4"
+music = "D_E1M9"
+}
+
+
+//Episode 2
+
+map E2M1 "Deimos Anomaly"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M2"
+music = "D_E2M1"
+}
+
+map E2M2 "Containment Area"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M3"
+music = "D_E2M2"
+}
+
+
+map E2M3 "Refinery"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M4"
+music = "D_INTER"
+}
+
+map E2M4 "Deimos Lab"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M5"
+music = "D_E2M4"
+}
+
+map E2M5 "Command Center"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M6"
+secretnext = "E2M9"
+music = "D_E2M5"
+}
+
+map E1M6 "Halls of the Dammned"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M7"
+music = "D_E2M6"
+}
+
+
+map E2M7 "Spawning Vats"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M8"
+music = "D_E2M7"
+}
+
+
+map E2M8 "Tower of Babel"
+
+{
+sky1 = "SKY2" , 0
+music = "D_E2M8"
+}
+
+map E2M9 "Fortress of Mystery"
+
+{
+sky1 = "SKY2" , 0
+next = "E2M4"
+music = "D_E2M9"
+}
+
+//Episode 3
+
+map E3M1 "Hell Keep"
+
+{
+sky1 = "SKY3" , 0
+next = "E3M2"
+music = "D_E3M1"
+}
+
+map E3M2 "Slough of Despair"
+
+{
+sky1 = "SKY3" , 0
+next = "E3M3"
+music = "D_E3M2"
+}
+
+
+map E3M3 "Pandemonium"
+
+{
+sky1 = "SKY3" , 0
+next = "E3M4"
+music = "D_E3M3"
+}
+
+map E3M4 "House of Pain"
+
+{
+sky1 = "SKY3" , 0
+next = "E3M5"
+music = "D_E3M4"
+}
+
+map E3M5 "Unholy Cathedral"
+
+{
+sky1 = "SKY2" , 0
+next = "E3M6"
+music = "D_E3M5"
+}
+
+map E3M6 "MT. Erebus"
+
+{
+sky1 = "SKY3" , 0
+next = "E3M7"
+secretnext = "E3M9"
+music = "D_E3M6"
+}
+
+map E3M7 "Limbo"
+
+{
+sky1 = "SKY3" , 0
+next = "E3M8"
+music = "D_E3M7"
+}
+
+
+map E3M8 "Dis"
+
+{
+sky1 = "SKY3" , 0
+music = "D_E3M8"
+}
+
+map E3M9 "Warrens"
+
+{
+sky1 = "SKY3" , 0
+next = "E3M4"
+music = "D_E3M9"
+}
