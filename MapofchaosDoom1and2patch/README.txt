@@ -1,5 +1,5 @@
 # MOKpatch
-Maps of Chaos Doom 1 &amp; 2 Patch
+Maps of Chaos Doom 1 And 2 Patch
 
 A patch For Maps of Chaos To play All the maps edited by DoomVideoVault
 
